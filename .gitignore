@@ -1,0 +1,9 @@
+.clj-kondo/
+.lsp/
+.cpcache/
+target/
+.DS_Store
+.yarn/
+.pnp*
+.shadow-cljs/
+resources/public/js/*

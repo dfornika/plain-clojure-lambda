@@ -1,0 +1,6 @@
+{:deps {:aliases [:cljs :dev]}
+ :builds
+ {:app
+  {:target :browser
+   :modules {:main {:init-fn lambda-app.core/init}}
+   :output-dir "resources/public/js"}}}
